@@ -42,6 +42,7 @@ public class GuessingGame {
 				{
 					System.out.println("That was error type " + e);
 					System.out.println("That was not a number. Please try again.");
+					input.nextLine();
 				}
 			}
 		}
